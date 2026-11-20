@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Ancestral — Café artesanal premium de las montañas del Tolima, Colombia. De la finca a tu taza.">
+  <title>Café Ancestral — El Sabor De nuestra Tierra </title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVEGACIÓN PRINCIPAL
+       ============================================================ -->
+  <nav class="navbar" id="navbar" aria-label="Navegación principal">
+    <div class="nav-logo">
+      <!-- LOGO NAVBAR — coloca logo-white.png en ./img/logo-white.png -->
+      <img
+        src="./img/logo logo logo.png"
+        alt="Café Ancestral logo"
+        class="nav-logo-img"
+      >
+      <div class="nav-brand">
+        Café Ancestral
+        <span>El sabor de nuestra tierra</span>
+      </div>
+    </div>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#region">Región</a></li>
+      <li><a href="#productos">Cafés</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto" class="nav-cta">Contáctanos</a></li>
+    </ul>
+
+    <!-- Botón hamburguesa para móvil -->
+    <button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Menú móvil overlay -->
+  <nav class="nav-mobile-menu" aria-label="Menú móvil">
+    <button class="nav-mobile-close" aria-label="Cerrar menú">✕</button>
+    <a href="#historia">Historia</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#region">Región</a>
+    <a href="#productos">Cafés</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION — Pantalla completa
+       ============================================================ -->
+  <section class="hero" id="inicio">
+    <div class="hero-media">
+      <!-- IMAGEN HERO PRINCIPAL — coloca hero.jpg en ./img/hero.jpg
+           Sugerencia: usa la foto del amanecer sobre las montañas con el camino (WhatsApp_Image...5_26_24) -->
+      <img
+        src="./img/logo blanco .jpeg  "
+        alt="Amanecer sobre las montañas del Tolima, tierra del Café Ancestral"
+        loading="eager"
+        fetchpriority="high"
+      >
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow"></p>
+      <h1 class="hero-title">
+        <br>
+        <em></em>
+      </h1>
+      <p class="hero-subtitle"> 
+      </p>
+      </div>
+
+  
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN: HISTORIA DE CAFÉ ANCESTRAL
+       ============================================================ -->
+  <section class="section-historia" id="historia">
+    <div class="historia-grid">
+
+      <!-- Texto editorial -->
+      <div class="historia-text">
+        <p class="label-section reveal">Nuestra historia</p>
+        <h2 class="section-title reveal">
+          Raíces que<br>
+          <em>huelen a café</em>
+        </h2>
+        <blockquote class="historia-quote reveal">
+          "El café no se fabrica, se cuida. Con amor y respeto por la tierra."
+        </blockquote>
+        <p class="historia-body reveal">
+          Nacimos en las montañas del norte del tolima frente al nevado del Ruiz . No somos una fábrica, somos una finca familiar. Honramos la memoria del suelo y el conocimiento heredado para llevar hasta tu taza un café extraordinario, cultivado a mano y tostado con pasión.
+        </p>
+      </div>
+
+      <!-- Imagen historia -->
+      <div class="historia-img reveal-right">
+        <!-- IMAGEN FINCA — coloca finca.jpg en ./img/finca.jpg
+             Sugerencia: usa la foto de la finca con el Nevado al fondo (WhatsApp_Image...5_26_25) -->
+        <img
+          src="./img/nevadomelo.png"
+          alt="Finca cafetera al pie del Nevado del Tolima"
+          loading="lazy"
+        >
+        <div class="historia-img-overlay" aria-hidden="true"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN: FILOSOFÍA
+       ============================================================ -->
+  <section class="section-filosofia" id="filosofia">
+    <div class="container">
+
+      <div class="filosofia-intro">
+        <p class="label-section reveal" style="justify-content:center;">Nuestra filosofía</p>
+        <h2 class="section-title reveal">
+          Creemos en el <em>café verdadero</em>
+        </h2>
+        <p class="reveal">
+          Seis pilares guían cada decisión que tomamos, desde la semilla en la tierra
+          hasta la taza en tus manos.
+        </p>
+      </div>
+
+      <div class="filosofia-grid">
+
+        <!-- Pilar 1 -->
+        <div class="filosofia-card reveal stagger-1">
+     <div class="filosofia-number" aria-hidden="true"><span style="color: #fff;">01</span></div>
+          <span class="filosofia-icon" aria-hidden="true">⛰️</span>
+          <h3>Origen Puro</h3>
+          <p>Cultivado en las altas montañas del Tolima.</p>
+        </div>
+
+        <!-- Pilar 2 -->
+        <div class="filosofia-card reveal stagger-2">
+   <div class="filosofia-number" aria-hidden="true"><span style="color: #fff;">02</span></div>
+          <span class="filosofia-icon" aria-hidden="true">🌿</span>
+          <h3>Tradición Viva</h3>
+          <p>Técnicas agrícolas que respetan la naturaleza.</p>
+        </div>
+
+        <!-- Pilar 3 -->
+        <div class="filosofia-card reveal stagger-3">
+        <div class="filosofia-number" aria-hidden="true"><span style="color: #fff;">03</span></div>
+          <span class="filosofia-icon" aria-hidden="true">☕</span>
+          <h3>Artesanía Total</h3>
+          <p>Cosecha y tueste intencional, en pequeños lotes.</p>
+        </div>
+
+        <!-- Pilar 4 -->
+        <div class="filosofia-card reveal stagger-1">
+         <div class="filosofia-number" aria-hidden="true"><span style="color: #fff;">04</span></div>
+          <span class="filosofia-icon" aria-hidden="true">🌍</span>
+          <h3>Sostenibilidad</h3>
+          <p>Prácticas regenerativas que cuidan la tierra.</p>
+        </div>
+
+        <!-- Pilar 5 -->
+        <div class="filosofia-card reveal stagger-2">
+         <div class="filosofia-number" aria-hidden="true"><span style="color: #fff;">05</span></div>
+          <span class="filosofia-icon" aria-hidden="true">🇨🇴</span>
+          <h3>Orgullo Colombiano</h3>
+          <p>Embajadores del mejor café del mundo.</p>
+        </div>
+          
+        <!-- Pilar 6 -->
+        <div class="filosofia-card reveal stagger-3">
+          <div class="filosofia-number" aria-hidden="true"><span style="color: #fff;">06</span></div>
+          <span class="filosofia-icon" aria-hidden="true">✨</span>
+          <h3>Calidad Premium</h3>
+          <p>Selección rigurosa para un sabor extraordinario.</p>
+        </div>
+
+      </div>
+
+      <!-- Imagen filosofía -->
+      <div class="filosofia-bottom-img reveal">
+        <!-- IMAGEN PROCESO GENERAL — coloca proceso.jpg en ./img/proceso.jpg
+             Sugerencia: usa la foto del cultivo desde abajo hacia el cielo (WhatsApp_Image...5_26_25__8_) -->
+        <img
+          src="./img/pano 1 .png"
+          alt="Cultivos de café bajo el cielo de los Andes colombianos"
+          loading="lazy"
+        >
+        <div class="filosofia-bottom-overlay" aria-hidden="true"></div>
+        <p class="filosofia-bottom-text">"El sabor de la montaña en cada sorbo"</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN: DE LA FINCA A TU TAZA — PROCESO
+       ============================================================ -->
+  <section class="section-proceso" id="proceso">
+    <div class="container">
+
+      <div class="proceso-header">
+        <p class="label-section reveal" style="justify-content:center;">El viaje del grano</p>
+        <h2 class="section-title reveal" style="text-align:center;">
+          De la <em>Finca</em> a tu <em>Taza</em>
+        </h2>
+        <p class="reveal" style="text-align:center; color:var(--crema-oscura); max-width:600px; margin:0 auto; font-size:1rem; font-style:italic;">
+          Detrás de cada taza de Café Ancestral hay un camino de meses,
+          de manos expertas y de amor por el detalle.
+        </p>
+      </div>
+
+      <div class="proceso-timeline">
+
+        <!-- Paso 1: Cultivo -->
+        <div class="proceso-step">
+          <div class="paso-img reveal-left">
+            <img
+              src="./img/tap.png"
+              alt="Terrazas de cultivo de café en las montañas del Tolima"
+              loading="lazy"
+            >
+            <div class="paso-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="paso-dot" aria-hidden="true">
+            <div class="paso-dot-inner">1</div>
+          </div>
+          <div class="paso-texto reveal-right">
+            <p class="paso-numero">Paso 01</p>
+            <h3>Cultivo en altura</h3>
+            <p>Suelo rico y un microclima andino perfecto a más de 1.700 metros.</p>
+          </div>
+        </div>
+
+        <!-- Paso 2: Cosecha selectiva -->
+        <div class="proceso-step">
+          <div class="paso-img reveal-right">
+            <img
+              src="./img/fee.png"
+              alt="Cosecha selectiva a mano de los granos de café maduros"
+              loading="lazy"
+            >
+            <div class="paso-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="paso-dot" aria-hidden="true">
+            <div class="paso-dot-inner">2</div>
+          </div>
+          <div class="paso-texto reveal-left">
+            <p class="paso-numero">Paso 02</p>
+            <h3>Cosecha selectiva a mano</h3>
+            <p>Nuestros recolectores escogen meticulosamente solo los cerezos maduros.</p>
+          </div>
+        </div>
+
+        <!-- Paso 3: Beneficio -->
+        <div class="proceso-step">
+          <div class="paso-img reveal-left">
+            <img
+              src="./img/arbolito.png"
+              alt="Cerezos de café maduros listos para el beneficio"
+              loading="lazy"
+            >
+            <div class="paso-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="paso-dot" aria-hidden="true">
+            <div class="paso-dot-inner">3</div>
+          </div>
+          <div class="paso-texto reveal-right">
+            <p class="paso-numero">Paso 03</p>
+            <h3>Beneficio y despulpe</h3>
+            <p>Usamos café lavado con un plazo maximo de fermentacion de 12 horas.</p>
+          </div>
+        </div>
+
+        <!-- Paso 4: Secado -->
+        <div class="proceso-step">
+          <div class="paso-img reveal-right">
+            <img
+              src="./img/tostion .png"
+              alt="Secado natural de los granos de café al sol de los Andes"
+              loading="lazy"
+            >
+            <div class="paso-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="paso-dot" aria-hidden="true">
+            <div class="paso-dot-inner">4</div>
+          </div>
+          <div class="paso-texto reveal-left">
+            <p class="paso-numero">Paso 04</p>
+            <h3>Secado al sol andino</h3>
+            <p>Lento secado natural que preserva todos los compuestos aromáticos.</p>
+          </div>
+        </div>
+
+        <!-- Paso 5: Tueste artesanal -->
+        <div class="proceso-step">
+          <div class="paso-img reveal-left">
+            <img
+              src="./img/same.png"
+              alt="Tueste artesanal en pequeños lotes para preservar el perfil de sabor"
+              loading="lazy"
+            >
+            <div class="paso-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="paso-dot" aria-hidden="true">
+            <div class="paso-dot-inner">5</div>
+          </div>
+          <div class="paso-texto reveal-right">
+            <p class="paso-numero">Paso 05</p>
+            <h3>Tueste artesanal</h3>
+            <p>Tostado en lotes pequeños, con perfiles personalizados para resaltar su esencia.</p>
+          </div>
+        </div>
+
+      </div><!-- fin timeline -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN: REGIÓN CAFETERA — TOLIMA Y ANDES
+       ============================================================ -->
+  <section class="section-region" id="region">
+
+    <!-- Bloque hero de la región -->
+    <div class="region-hero">
+      <div class="region-hero-img">
+        <!-- IMAGEN MONTAÑAS — coloca montanas.jpg en ./img/montanas.jpg
+             Sugerencia: panorámica de montañas verdes con cielo azul (WhatsApp_Image...5_26_25__5_) -->
+        <img
+          src="./img/pano2.png"
+          alt="Vista panorámica de las montañas cafeteras del Tolima, Colombia"
+          loading="lazy"
+        >
+      </div>
+      <div class="region-overlay" aria-hidden="true"></div>
+
+      <div class="region-content">
+        <p class="label-section reveal"></p>
+        <h2 class="section-title reveal"> 
+          <br>
+          <em>Tolima</em> Colombia 
+        </h2>
+        <p class="reveal">
+          Ubicado en el corazón de los Andes colombianos, la geografía del Tolima y el majestuoso Nevado brindan un microclima excepcional para granos complejos y únicos.
+        </p>
+        <div class="region-stats">
+          <div class="region-stat reveal stagger-1">
+            <div class="numero" data-count="2000" data-suffix="m">0m</div>
+            <div class="etiqueta">Altitud promedio</div>
+          </div>
+  
+          <div class="region-stat reveal stagger-3">
+            <div class="numero" data-count="100" data-suffix="%" data-prefix="">0%</div>
+            <div class="etiqueta">Cosecha manual</div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN: PRODUCTOS DESTACADOS
+       ============================================================ -->
+  <section class="section-productos" id="productos">
+    <div class="container">
+
+      <div class="productos-header">
+        <p class="label-section reveal" style="justify-content:center;">Nuestros cafés</p>
+        <h2 class="section-title reveal" style="text-align:center;">
+          Perfiles de <em>excepción</em>
+        </h2>
+        <p class="reveal" style="text-align:center; color:var(--crema-oscura); max-width:550px; margin:0 auto; font-style:italic;">
+        </p>
+      </div>
+
+      <div class="productos-grid">
+
+        <!-- Producto 1 -->
+        <div class="producto-card reveal stagger-1">
+          <div class="producto-img">
+            <img
+              src="./img/110 g.png"
+              alt="Café Ancestral Origen — Granos selectos de alta montaña"
+              loading="lazy" >
+
+            <div class="producto-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="producto-info">
+            <p class="producto-badge"></p>
+            <h3>Ancestral 110 g </h3>
+            <p class="origen"></p>
+            <div class="producto-notas">
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 2 -->
+         <div class="producto-card reveal stagger-1">
+          <div class="producto-img">
+            <img
+              src="./img/220 g.png"
+              alt="Café Ancestral Origen — Granos selectos de alta montaña"
+              loading="lazy" >
+              
+            <div class="producto-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="producto-info">
+            <p class="producto-badge"></p>
+            <h3>Ancestral 220 g </h3>
+            <p class="origen"></p>
+            <div class="producto-notas">
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 3 -->
+       <div class="producto-card reveal stagger-1">
+          <div class="producto-img">
+            <img
+              src="./img/420 g.png"
+              alt="Café Ancestral Origen — Granos selectos de alta montaña"
+              loading="lazy" >
+              
+            <div class="producto-img-overlay" aria-hidden="true"></div>
+          </div>
+          <div class="producto-info">
+            <p class="producto-badge"></p>
+            <h3>Ancestral 420 g </h3>
+            <p class="origen"></p>
+            <div class="producto-notas">
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN: EXPERIENCIA SENSORIAL
+       ============================================================ -->
+  <section class="section-experiencia" id="experiencia">
+    <div class="experiencia-layout">
+
+      <!-- Imagen lateral -->
+      <div class="experiencia-img-side reveal-left">
+        <!-- IMAGEN BARISTA — coloca barista.jpg en ./img/barista.jpg
+             Sugerencia: foto del recolector en la finca (WhatsApp_Image...5_26_25__7_) o proceso -->
+        <img
+          src="./img/tatica.png"
+          alt="El arte del café artesanal en Café Ancestral"
+          loading="lazy"
+        >
+        <div class="experiencia-img-overlay" aria-hidden="true"></div>
+      </div>
+
+      <!-- Texto sensorial -->
+      <div class="experiencia-text-side reveal-right">
+        <p class="label-section">La experiencia</p>
+        <h2 class="section-title">
+          Más que café,<br>
+          <em>un viaje sensorial</em>
+        </h2>
+        <p class="lead-text">
+          Cerrar los ojos y sostener una taza de Café Ancestral es transportarse.
+        </p>
+        <p>
+          Un equilibrio perfecto entre acidez y dulzura, donde cada sorbo cuenta una historia de montañas, paciencia y tradición familiar.
+        </p>
+
+         <p class="label-section"> contamos con variedades como</p>
+
+        <!-- Notas de cata -->
+        <div class="aromas-grid">
+          <div class="aroma-item reveal stagger-1">
+            <div class="nombre">Catimore</div>
+            <div class="desc"></div>
+          </div>
+          <div class="aroma-item reveal stagger-2">
+            <div class="nombre">castillos</div>
+            <div class="desc"></div>
+          </div>
+          <div class="aroma-item reveal stagger-3">
+            <div class="nombre">variedad colombia </div>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============================================================
+       SECCIÓN: GALERÍA PREMIUM
+       ============================================================ -->
+  <section class="section-galeria" id="galeria">
+    <div class="container">
+
+      <div class="galeria-header">
+        <p class="label-section reveal" style="justify-content:center;">Galería visual</p>
+        <h2 class="section-title reveal" style="text-align:center;">
+          Las imágenes de<br>
+          <em>nuestra tierra</em>
+        </h2>
+      </div>
+
+      <!-- Grid masonry con TODAS las imágenes propias -->
+      <div class="galeria-masonry">
+
+        <!-- IMAGEN GALERÍA 1 — coloca galeria1.jpg en ./img/galeria1.jpg
+             Sugerencia: amanecer crepuscular azul/violeta (WhatsApp_Image...5_26_20) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 1.png" alt="Amanecer dramático sobre las montañas del Tolima" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 2 — coloca galeria2.jpg en ./img/galeria2.jpg
+             Sugerencia: camino con atardecer naranja (WhatsApp_Image...5_26_24) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 2.png" alt="Camino de tierra hacia el horizonte dorado en el Tolima" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 3 — coloca galeria3.jpg en ./img/galeria3.jpg
+             Sugerencia: finca con nevado al fondo (WhatsApp_Image...5_26_25) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 3.png" alt="Finca cafetera al pie del Nevado del Tolima" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 4 — coloca galeria4.jpg en ./img/galeria4.jpg
+             Sugerencia: panorámica montañas verdes (WhatsApp_Image...5_26_25__4_) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 4.png" alt="Vista panorámica de los Andes cafeteros tolimenses" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 5 — coloca galeria5.jpg en ./img/galeria5.jpg
+             Sugerencia: terrazas de café con montañas de fondo (WhatsApp_Image...5_26_25__5_) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 6.png" alt="Terrazas de café en ladera de montaña tolimense" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 6 — coloca galeria6.jpg en ./img/galeria6.jpg
+             Sugerencia: cosecha manual (WhatsApp_Image...5_26_25__7_) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 7.png" alt="Cosechador seleccionando a mano los granos maduros" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 7 — coloca galeria7.jpg en ./img/galeria7.jpg
+             Sugerencia: cultivo de café desde abajo (WhatsApp_Image...5_26_25__8_) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 8.png" alt="Planta de café cargada de granos bajo el cielo azul" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 8 — coloca galeria8.jpg en ./img/galeria8.jpg
+             Sugerencia: cerezos rojos en el árbol (WhatsApp_Image...5_26_26__2_) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 11.png" alt="Cerezos rojos maduros en la planta de café" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 9 — coloca galeria9.jpg en ./img/galeria9.jpg
+             Sugerencia: terrazas con montaña nevada (WhatsApp_Image...5_26_26__3_) -->
+        <div class="galeria-item">
+          <img src="./img/galeria 12 .png" alt="Finca cafetera en terrazas con el Nevado al fondo" loading="lazy">
+          <div class="galeria-overlay"><span class="galeria-overlay-icon">+</span></div>
+        </div>
+
+        <!-- IMAGEN GALERÍA 10 — coloca galeria10.jpg en ./img/galeria10.jpg
+             Sugerencia: sunset en el camino (WhatsApp_Image...5_26_26__1_) -->
+        
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- ============================================================
+       SECCIÓN: CALL TO ACTION FINAL
+       ============================================================ -->
+  <section class="section-cta" id="contacto">
+
+    <!-- Logo decorativo CTA -->
+    <!-- LOGO CTA — coloca logo-gold.png en ./img/logo-gold.png
+         Sugerencia: usa la versión dorada del logo (WhatsApp_Image...5_26_25__3_ o __2_) -->
+    <img
+      src="./img/logo gold .jpeg"
+      alt="Café Ancestral logo dorado"
+      class="cta-logo reveal"
+      loading="lazy"
+    >
+
+    <div class="flag-divider" aria-hidden="true">
+      <span class="am"></span>
+      <span class="az"></span>
+      <span class="ro"></span>
+    </div>
+
+    <p class="cta-deco reveal">Café de origen · Tolima · Colombia</p>
+    <h2 class="cta-title reveal">
+      Lleva la montaña<br>
+      <em>a tu taza</em>
+    </h2>
+    <p class="cta-sub reveal">
+      Cada pedido es una conexión directa con nuestra finca.
+      Fresco, artesanal, lleno de historia.
+    </p>
+
+    <div class="cta-buttons reveal">
+      <a href="mailto:hola@cafeancestral.co" class="btn-primary">
+        Contáctanos
+      </a>
+      <a href="https://wa.me/573186456662" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+        WhatsApp
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER PREMIUM
+       ============================================================ -->
+  <footer class="footer" id="footer">
+
+    <div class="footer-top">
+
+      <!-- Columna marca -->
+      <div class="footer-brand">
+        <!-- LOGO FOOTER — coloca logo-white.png en ./img/logo-white.png -->
+    
+        <p>
+          Café artesanal de las montañas del Tolima.
+        </p>
+        <div class="footer-flag" aria-label="Bandera de Colombia">
+          <span class="am"></span>
+          <span class="az"></span>
+          <span class="ro"></span>
+        </div>
+      </div>
+
+      <!-- Columna navegación -->
+
+
+      <!-- Columna contacto -->
+           <div class="footer-bottom">
+      <div class="social-links" aria-label="Redes sociales">
+        <a href="https://www.instagram.com/ancestral_cafe_de_padua" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://www.facebook.com/share/1SjY5YcgeK/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+        <a href="https://www.tiktok.com/@cafeancestral26?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener" aria-label="TikTok">TK</a>
+        <a href="https://wa.me/573145032962" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+
+
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul role="list">
+         
+          <li><a href="https://wa.me/573145032962" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/ancestral_cafe_de_padua" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/share/1SjY5YcgeK/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.tiktok.com/@cafeancestral26?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener">TikTok</a></li>
+        </ul>
+        <p style="font-size:1rem;color:rgba(255,255,255,0.45);margin-top:1.5rem;line-height:1.8;">Tolima, Colombia<br>Andes colombianos</p>
+      </div>
+
+    </div>
+
+    <!-- Línea inferior del footer -->
+    <div class="footer-bottom">
+   <p style="font-size:1.15rem;font-weight:500;letter-spacing:.5px;">© 2025 Café Ancestral · Todos los derechos reservados · Tolima, Colombia</p>
+
+  </footer>
+
+  <!-- JavaScript principal -->
+  <script src="./js/main.js"></script>
+
+</body>
+</html>
